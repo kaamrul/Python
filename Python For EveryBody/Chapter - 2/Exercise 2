@@ -1,0 +1,8 @@
+#Exercise 2:
+#Write a Program that uses input to prompt a user for their name and then welcomes them.
+#Enter Your Name: Kamrul
+#Hello Kamrul
+
+prompt = "Enter Your Name: "
+name = input(prompt)
+print("Hello " + str(name))
