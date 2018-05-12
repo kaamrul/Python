@@ -1,0 +1,9 @@
+# Exercise 1:
+# Type the folloing statements in the Python interpreter to see what they do:
+#   5
+#   x = 5
+#   x + 1
+
+5
+x = 5
+print(x + 1)
