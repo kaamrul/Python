@@ -1,0 +1,7 @@
+#Exercise 5:
+#Write a Program which prompts the user for a Celsius temperature, convert the temperature to Fahrenheit, and print out the converted temperature.
+
+celsius = input("Enter celsius temperature : ")
+cel = float(celsius)
+farh = ((cel * 9) / 5) + 32
+print("Convert Temperature Celsius to Fahrenheit is : " + str (farh))
