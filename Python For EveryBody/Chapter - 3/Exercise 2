@@ -1,0 +1,21 @@
+# Python version 3.6.1
+
+# Exercise 2:
+# Rewrite your pay program using try and except so that your program handles non-numeric input. gracefully by printing a message and existing the program. The following shows two executions of the program:
+#	Enter Hours : 20
+#	Enter Rate : nine
+# Error, please enter numeric input
+#		or
+#	Enter Hours : forty
+# Error, please enter numeric input
+
+
+hours = input("Enter Hours: ")
+try:
+  int(hours)
+  rate = input("Enter Rate: ")
+  int(rate)
+  pay = int(hours)*int(rate)
+  print("Pay: " + str(pay))
+except:
+  print("Error, Please enter numeric value")
